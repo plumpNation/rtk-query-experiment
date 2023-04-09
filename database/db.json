@@ -1,11 +1,25 @@
 {
-  "posts": {
-    "posts": [
-      { "id": 1, "title": "This is the title of my post", "author": { "id": 2, "name": "plumpertron" } }
-    ],
-    "comments": [
-      { "id": 1, "body": "This is a toxic comment about the post", "author": { "id": 2, "name": "nemesis" }, "postId": 1 }
-    ],
-    "profile": { "id": 1, "name": "plumpertron" }
+  "posts": [
+    {
+      "title": "iåojåasf",
+      "body": "åojasåfoj",
+      "authorId": 1,
+      "id": 10
+    }
+  ],
+  "comments": [],
+  "users": [
+    {
+      "id": 1,
+      "name": "plumpertron"
+    },
+    {
+      "id": 2,
+      "name": "toxicuser"
+    }
+  ],
+  "profile": {
+    "id": 1,
+    "name": "plumpertron"
   }
 }

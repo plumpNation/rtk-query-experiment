@@ -1,23 +1,20 @@
-export interface User {
+export interface UserDTO {
   id: number
   name: string
 }
 
-export interface Post {
+export interface PostDTO {
   id: number
   title: string
-  author: User
+  body: string
+  authorId: number
 }
 
-export interface Comment {
+export type CreatePostDto = Omit<PostDTO, 'id'>
+
+export interface CommentDTO {
   id: number
   postId: number
   body: string
-  author: User
-}
-
-export interface PostsDTO {
-  posts: Post[]
-  comments: Comment[]
-  profile: User
+  author: UserDTO
 }
