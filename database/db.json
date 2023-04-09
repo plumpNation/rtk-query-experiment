@@ -1,9 +1,11 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "posts": {
+    "posts": [
+      { "id": 1, "title": "This is the title of my post", "author": { "id": 2, "name": "plumpertron" } }
+    ],
+    "comments": [
+      { "id": 1, "body": "This is a toxic comment about the post", "author": { "id": 2, "name": "nemesis" }, "postId": 1 }
+    ],
+    "profile": { "id": 1, "name": "plumpertron" }
+  }
 }
