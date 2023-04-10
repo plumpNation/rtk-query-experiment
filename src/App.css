@@ -1,0 +1,5 @@
+@import "theme/fonts.css"; /* Should be in a typography component */
+
+.App {
+  color: var(--palette-common-black);
+}

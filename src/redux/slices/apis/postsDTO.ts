@@ -10,7 +10,9 @@ export interface PostDTO {
   authorId: number
 }
 
-export type CreatePostDto = Omit<PostDTO, 'id'>
+export interface CreatePostDTO extends Omit<PostDTO, 'id'> {
+  id?: undefined
+}
 
 export interface CommentDTO {
   id: number

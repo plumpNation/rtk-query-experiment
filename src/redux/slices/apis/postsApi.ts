@@ -4,7 +4,7 @@
 import { createApi } from '@reduxjs/toolkit/query/react'
 import { baseQuery } from './baseQuery'
 
-import type { CreatePostDto, PostDTO } from './postsDTO'
+import type { CreatePostDTO, PostDTO } from './postsDTO'
 
 export const postsApi = createApi({
   reducerPath: 'postsApi',
@@ -35,7 +35,7 @@ export const postsApi = createApi({
         // note that this query won't invalidate any tags
     }),
 
-    createPost: builder.mutation<PostDTO, CreatePostDto>({
+    createPost: builder.mutation<PostDTO, CreatePostDTO>({
       query: (body) => ({
         url: `posts`,
         method: 'POST',
@@ -48,7 +48,7 @@ export const postsApi = createApi({
       query(data) {
         const { id, ...body } = data
         return {
-          url: `post/${id}`,
+          url: `posts/${id}`,
           method: 'PUT',
           body,
         }
@@ -66,4 +66,4 @@ export const postsApi = createApi({
   }),
 })
 
-export const { useGetPostsQuery, useCreatePostMutation, useDeletePostMutation } = postsApi
+export const { useGetPostsQuery, useCreatePostMutation, useDeletePostMutation, useUpdatePostMutation } = postsApi

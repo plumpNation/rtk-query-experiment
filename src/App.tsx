@@ -1,6 +1,7 @@
 import { useAppDispatch, useAppSelector } from './redux/hooks'
 import { increment } from './redux/slices/counterSlice'
 import { Posts } from './components/Posts'
+import { Button } from './components/Button'
 
 import './App.css'
 
@@ -14,9 +15,13 @@ export const App = () => {
   }
 
   return (
-    <div className="App">
-      <button onClick={handleClick}>Clicked {count} times</button>
+    <main className="App">
+      <section>
+        <h1 className="h1">Redux Toolkit</h1>
+        <Button onClick={handleClick}>Clicked {count} times</Button>
+      </section>
+
       <Posts />
-    </div>
+    </main>
   )
 }

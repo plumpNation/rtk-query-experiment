@@ -1,0 +1,6 @@
+@import "../../theme/variables/units.css";
+
+.button-group {
+  display: flex;
+  column-gap: var(--spacing);
+}

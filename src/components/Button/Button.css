@@ -1,0 +1,35 @@
+@import "../../theme/variables/units.css";
+@import "../../theme/variables/palette.css";
+@import "../../theme/variables/typography.css";
+
+.button {
+  border-radius: var(--border-radius);
+  border: 1px solid transparent;
+  padding: var(--spacing) calc(var(--spacing) * 2);
+  cursor: pointer;
+  transition: border-color 0.25s;
+
+  font-size: var(--typography-button-font-size);
+  font-weight: var(--typography-button-font-weight);
+  line-height: var(--typography-button-line-height);
+  letter-spacing: var(--typography-button-letter-spacing);
+
+  &:hover {
+    border-color: #646cff;
+  }
+}
+
+.button--primary {
+  background-color: var(--palette-primary-main);
+  color: var(--palette-primary-contrast-text);
+}
+
+.button--secondary {
+  background-color: var(--palette-secondary-main);
+  color: var(--palette-secondary-contrast-text);
+}
+
+.button--reset {
+  background-color: var(--palette-common-white);
+  color: var(--palette-common-black);
+}

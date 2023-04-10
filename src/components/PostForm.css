@@ -1,0 +1,10 @@
+@import "../theme/variables/units.css";
+
+.post-form {
+  padding: var(--spacing);
+
+  .input {
+    padding: var(--spacing);
+    margin-bottom: var(--spacing);
+  }
+}

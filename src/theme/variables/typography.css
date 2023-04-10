@@ -1,0 +1,71 @@
+:root {
+  --system-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  --typography-font-family: var(--system-font-family);
+
+  --typography-font-size-xxs: 0.625rem;
+  --typography-font-size-xs: 0.75rem;
+  --typography-font-size-sm: 0.875rem;
+  --typography-font-size-md: 1rem;
+  --typography-font-size-lg: 1.125rem;
+  --typography-font-size-xl: 1.25rem;
+  --typography-font-size-xxl: 1.5rem;
+  --typography-font-size-xxxl: 1.75rem;
+  --typography-font-size-xxxxl: 2rem;
+
+  --typography-font-weight-light: 300;
+  --typography-font-weight-regular: 400;
+  --typography-font-weight-medium: 500;
+  --typography-font-weight-bold: 700;
+
+  --typography-h1-font-size: var(--typography-font-size-xxxxl);
+  --typography-h1-font-weight: var(--typography-font-weight-regular);
+  --typography-h1-line-height: 1.167;
+  --typography-h1-letter-spacing: -0.01562em;
+
+  --typography-h2-font-size: var(--typography-font-size-xxl);
+  --typography-h2-font-weight: var(--typography-font-weight-light);
+  --typography-h2-line-height: 1.2;
+  --typography-h2-letter-spacing: -0.00833em;
+
+  --typography-h3-font-size: var(--typography-font-size-xl);;
+  --typography-h3-font-weight: var(--typography-font-weight-regular);
+  --typography-h3-line-height: 1.167;
+  --typography-h3-letter-spacing: 0em;
+
+  --typography-h4-font-size: var(--typography-font-size-lg);
+  --typography-h4-font-weight: var(--typography-font-weight-regular);
+  --typography-h4-line-height: 1.235;
+  --typography-h4-letter-spacing: 0.00735em;
+
+  --typography-subtitle1-font-size: var(--typography-font-size-md);
+  --typography-subtitle1-font-weight: var(--typography-font-weight-regular);
+  --typography-subtitle1-line-height: 1.75;
+  --typography-subtitle1-letter-spacing: 0.00938em;
+
+  --typography-subtitle2-font-size: 0.875rem;
+  --typography-subtitle2-font-weight: var(--typography-font-weight-regular);
+  --typography-subtitle2-line-height: 1.57;
+  --typography-subtitle2-letter-spacing: 0.00714em;
+
+  --typography-body1-font-size: var(--typography-font-size-md);
+  --typography-body1-font-weight: var(--typography-font-weight-regular);
+  --typography-body1-line-height: 1.5;
+  --typography-body1-letter-spacing: 0.00938em;
+
+  --typography-body2-font-size: 0.875rem;
+  --typography-body2-font-weight: var(--typography-font-weight-regular);
+  --typography-body2-line-height: 1.43;
+  --typography-body2-letter-spacing: 0.01071em;
+
+  --typography-button-font-size: var(--typography-body1-font-size);
+  --typography-button-font-weight: var(--typography-font-weight-regular);
+  --typography-button-line-height: 1.75;
+  --typography-button-letter-spacing: 0.02857em;
+  --typography-button-text-transform: uppercase;
+
+  --typography-caption-font-size: 0.75rem;
+  --typography-caption-font-weight: var(--typography-font-weight-regular);
+  --typography-caption-line-height: 1.66;
+  --typography-caption-letter-spacing: 0.03333em;
+}
